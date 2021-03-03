@@ -11,6 +11,9 @@
   <module class="at.uibk.dps.ee.visualization.modules.EnactmentViewerModule">
     <property name="closeOnTerminate">false</property>
   </module>
-  <module class="at.uibk.dps.sc.core.modules.SchedulerModule"/>
-  <module class="at.uibk.dps.ee.enactables.wrapperSkeletton.EnactableFactoryModule"/>
+  <module class="at.uibk.dps.sc.core.modules.SchedulerModule">
+   	<property name="schedulingMode">Random</property>
+    <property name="mappingsToPick">1</property>
+  </module>
+  <module class="at.uibk.dps.ee.enactables.wrapper.EnactableFactoryModule"/>
 </configuration>

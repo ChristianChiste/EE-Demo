@@ -14,4 +14,5 @@
     <property name="schedulingMode">SingleOption</property>
     <property name="mappingsToPick">1</property>
   </module>
+  <module class="at.uibk.dps.ee.enactables.wrapper.EnactableFactoryModule"/>
 </configuration>

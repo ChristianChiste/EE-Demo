@@ -12,4 +12,5 @@
     <property name="closeOnTerminate">false</property>
   </module>
   <module class="at.uibk.dps.sc.core.modules.SchedulerModule"/>
+  <module class="at.uibk.dps.ee.enactables.wrapper.EnactableFactoryModule"/>
 </configuration>
