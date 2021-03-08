@@ -27,13 +27,13 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.github.Apollo-Core:EE-Core:master-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Guice:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-Model:main-SNAPSHOT'
-	implementation 'com.github.Apollo-Core:EE-IO:main-SNAPSHOT'
+	implementation 'com.github.ChristianChiste:EE-Core:master-SNAPSHOT'
+	implementation 'com.github.ChristianChiste:EE-Guice:main-SNAPSHOT'
+	implementation 'com.github.ChristianChiste:EE-Model:main-SNAPSHOT'
+	implementation 'com.github.ChristianChiste:EE-IO:main-SNAPSHOT'
 	implementation 'com.github.ChristianChiste:EE-Enactables:master-SNAPSHOT'
 	implementation 'com.github.ChristianChiste:EE-Control:master-SNAPSHOT'
-    implementation 'com.github.Apollo-Core:SC-Core:main-SNAPSHOT'
+    implementation 'com.github.ChristianChiste:SC-Core:main-SNAPSHOT'
 	implementation 'com.github.FedorSmirnov89:EE-Visualization:master-SNAPSHOT'
 	
 	// dependency to Opt4J
@@ -44,8 +44,4 @@ dependencies {
 	// test dependencies	
 	testCompile group: 'junit', 		name: 'junit', 					version: '4.+'
 	testCompile group: 'org.mockito',     name: 'mockito-core',     version: '3.4.4'
-	// dependency to local files
-	// compile files('libs/lib.jar')
-	//compile files('libs/EE-Control-1.0-SNAPSHOT.jar')
-	//compile files('libs/EE-Enactables-1.0-SNAPSHOT.jar')
 }
