@@ -10,6 +10,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="at.uibk.dps.ee.guice.starter.EeConfiguration"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="EE-Demo"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="configs/eidxConfig.xml"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="configs/sentimentAnalysis.xml"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="EE-Demo"/>
 </launchConfiguration>

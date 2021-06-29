@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <module class="at.uibk.dps.ee.control.modules.EnactmentAgentModule">
+    <property name="pauseOnStart">false</property>
+  </module>
+  <module class="at.uibk.dps.ee.enactables.local.calculation.FunctionFactoryModule">
+    <property name="useReliabilityWrapper">true</property>
+    <property name="failRateLocal">0.2</property>
+    <property name="failRateServerless">0.2</property>
+  </module>
+  <module class="at.uibk.dps.ee.enactables.wrapper.EnactableFactoryModule">
+    <property name="useReliabilityWrapper">false</property>
+    <property name="failRate">0.2</property>
+  </module>
+  <module class="at.uibk.dps.ee.io.modules.InputReaderFileModule">
+    <property name="filePath">./inputData/parForNum-5.json</property>
+  </module>
+  <module class="at.uibk.dps.ee.io.modules.OutputPrinterModule"/>
+  <module class="at.uibk.dps.ee.io.modules.SpecificationInputModule">
+    <property name="filePathAfcl">./demoWfs/parForNum.yaml</property>
+    <property name="filePathMappingFile">./typeMappings/parForSimple.json</property>
+  </module>
+  <module class="at.uibk.dps.sc.core.modules.SchedulerModule">
+    <property name="schedulingType">Dynamic</property>
+    <property name="schedulingMode">Ordered</property>
+  </module>
+</configuration>

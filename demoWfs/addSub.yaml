@@ -1,0 +1,58 @@
+---
+name: "addSub"
+dataIns:
+  - name: "input1"
+    type: "number"
+    source: "input1"
+  - name: "input2"
+    type: "number"
+    source: "input2"
+  - name: "input3"
+    type: "number"
+    source: "input3"    
+  - name: "wait1"
+    type: "number"
+    source: "wait1"  
+workflowBody:
+  - function:
+      name: "addition_Demo1"
+      type: "Addition"
+      dataIns:
+        - name: "firstSummand"
+          type: "number"
+          source: "addSub/input1"
+        - name: "secondSummand"
+          type: "number"
+          source: "addSub/input2"
+        - name: "waitTimeIn"
+          type: "number"
+          source: "addSub/wait1"
+      dataOuts: 
+        - name: "sum"
+          type: "number"
+      properties:
+        - name: "resource"
+          value: "my_res_link"
+  - function:
+      name: "subtraction_Demo1"
+      type: "Subtraction"
+      dataIns:
+        - name: "minuend"
+          type: "number"
+          source: "addition_Demo1/sum"
+        - name: "subtrahend"
+          type: "number"
+          source: "addSub/input3"
+        - name: "waitTimeIn"
+          type: "number"
+          source: "addSub/wait1"
+      dataOuts: 
+        - name: "difference"
+          type: "number"
+      properties:
+        - name: "resource"
+          value: "my_res_link"        
+dataOuts:
+  - name: "result"
+    type: "number"
+    source: "subtraction_Demo1/difference"

@@ -1,0 +1,83 @@
+[
+    {
+        "functionType": "sentim-batch",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                	"Rank": 0
+                }
+            },
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                	"Rank": 1
+                }
+            },
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 2
+                }
+            },
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 3
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "sentim-inference",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 0
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "sentim-inference-textblob",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 0
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "sentim-preprocess",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 0
+                }
+            }
+        ]
+    },
+    {
+        "functionType": "sentim-reduce",
+        "resources": [
+            {
+                "type": "Serverless",
+                "properties": {
+                    "Uri": "<resource_link>",
+                    "Rank": 0
+                }
+            }
+        ]
+    }
+]

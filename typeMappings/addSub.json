@@ -1,6 +1,6 @@
 [
   {"functionType" : "Addition",
-    "resources": [  
+    "resources": [      
       {"type": "Local",
         "properties": {
          "Rank": 0
@@ -8,11 +8,11 @@
       }
     ]
   },
-    {"functionType" : "SumCollection",
+  {"functionType" : "Subtraction",
     "resources": [      
       {"type": "Local",
-        "properties":  {
-        	"Rank": 0
+        "properties": {
+         "Rank": 0
         }
       }
     ]
